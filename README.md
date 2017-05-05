@@ -1,10 +1,10 @@
-#react计算器
-##开发框架
+# react计算器
+## 开发框架
 create-react-app生成的默认react开发框架
 
 es6+babel+webpack
 
-##组件划分
+## 组件划分
 ```bash
 div.root
 	└── App	#计算器容器
@@ -12,7 +12,7 @@ div.root
         └── ButtonsPanel	#按钮面板
         		└── Button	#所有可以点击的按钮
 ```
-##逻辑概要
+## 逻辑概要
 App存放state
 
 * total：默认结果0 || 上一次计算结果
@@ -27,7 +27,7 @@ clichHandler(button的name属性)
 
 ➡️上发App：clickHandler，App使用逻辑处理模块compute完成逻辑操作
 
-##知识点整理
+## 知识点整理
 
 知识点列表
 
